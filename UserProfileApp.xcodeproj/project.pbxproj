@@ -16,6 +16,8 @@
 		9A0B67AE28FCC86900FC8E1B /* UserProfileAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B67AD28FCC86900FC8E1B /* UserProfileAppTests.swift */; };
 		9A0B67B828FCC86900FC8E1B /* UserProfileAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B67B728FCC86900FC8E1B /* UserProfileAppUITests.swift */; };
 		9A0B67BA28FCC86900FC8E1B /* UserProfileAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B67B928FCC86900FC8E1B /* UserProfileAppUITestsLaunchTests.swift */; };
+		9A38109629052FFF0057BC0A /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 9A38109529052FFF0057BC0A /* Moya */; };
+		9A381098290530EF0057BC0A /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A381097290530EF0057BC0A /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		9A0B67B328FCC86900FC8E1B /* UserProfileAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserProfileAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0B67B728FCC86900FC8E1B /* UserProfileAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileAppUITests.swift; sourceTree = "<group>"; };
 		9A0B67B928FCC86900FC8E1B /* UserProfileAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A381097290530EF0057BC0A /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A38109629052FFF0057BC0A /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +110,7 @@
 				9A0B679F28FCC86900FC8E1B /* Assets.xcassets */,
 				9A0B67A128FCC86900FC8E1B /* LaunchScreen.storyboard */,
 				9A0B67A428FCC86900FC8E1B /* Info.plist */,
+				9A381097290530EF0057BC0A /* UserProfile.swift */,
 			);
 			path = UserProfileApp;
 			sourceTree = "<group>";
@@ -143,6 +148,9 @@
 			dependencies = (
 			);
 			name = UserProfileApp;
+			packageProductDependencies = (
+				9A38109529052FFF0057BC0A /* Moya */,
+			);
 			productName = UserProfileApp;
 			productReference = 9A0B679328FCC86700FC8E1B /* UserProfileApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +223,9 @@
 				Base,
 			);
 			mainGroup = 9A0B678A28FCC86700FC8E1B;
+			packageReferences = (
+				9A38109429052FFF0057BC0A /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 9A0B679428FCC86700FC8E1B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A381098290530EF0057BC0A /* UserProfile.swift in Sources */,
 				9A0B679B28FCC86700FC8E1B /* ViewController.swift in Sources */,
 				9A0B679728FCC86700FC8E1B /* AppDelegate.swift in Sources */,
 				9A0B679928FCC86700FC8E1B /* SceneDelegate.swift in Sources */,
@@ -596,6 +608,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A38109429052FFF0057BC0A /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A38109529052FFF0057BC0A /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A38109429052FFF0057BC0A /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9A0B678B28FCC86700FC8E1B /* Project object */;
 }
