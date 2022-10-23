@@ -18,6 +18,7 @@
 		9A0B67BA28FCC86900FC8E1B /* UserProfileAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B67B928FCC86900FC8E1B /* UserProfileAppUITestsLaunchTests.swift */; };
 		9A38109629052FFF0057BC0A /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 9A38109529052FFF0057BC0A /* Moya */; };
 		9A381098290530EF0057BC0A /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A381097290530EF0057BC0A /* UserProfile.swift */; };
+		9A38109A290531500057BC0A /* UserProfileTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A381099290531500057BC0A /* UserProfileTargetType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		9A0B67B728FCC86900FC8E1B /* UserProfileAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileAppUITests.swift; sourceTree = "<group>"; };
 		9A0B67B928FCC86900FC8E1B /* UserProfileAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9A381097290530EF0057BC0A /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		9A381099290531500057BC0A /* UserProfileTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileTargetType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				9A0B67A128FCC86900FC8E1B /* LaunchScreen.storyboard */,
 				9A0B67A428FCC86900FC8E1B /* Info.plist */,
 				9A381097290530EF0057BC0A /* UserProfile.swift */,
+				9A381099290531500057BC0A /* UserProfileTargetType.swift */,
 			);
 			path = UserProfileApp;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				9A381098290530EF0057BC0A /* UserProfile.swift in Sources */,
 				9A0B679B28FCC86700FC8E1B /* ViewController.swift in Sources */,
 				9A0B679728FCC86700FC8E1B /* AppDelegate.swift in Sources */,
+				9A38109A290531500057BC0A /* UserProfileTargetType.swift in Sources */,
 				9A0B679928FCC86700FC8E1B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
